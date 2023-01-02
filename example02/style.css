@@ -1,0 +1,88 @@
+/* body{
+    color: red;
+}
+div{
+    color: blue;
+} */
+/* li{
+    color: blue;
+} */
+/* #first-ul{
+    color: red;
+}
+.second-ul{
+    color: green;
+} */
+/* [href]{
+    color: red;
+}
+[href="https://naver.com"]{
+    color: blue;
+} */
+
+/* a[target="_blank"]{
+    color: red;
+}
+a:hover{
+    color: blue;
+}
+ul li:first-child{
+    color: blue;
+}
+a[target="_blank"]::before{
+    content: '(new window)';
+}
+h2{
+    color: red;
+}
+div{
+    color: blue;
+}
+div h2{
+    color: initial;
+}
+em{
+    font-style: initial;
+} */
+/* div p{
+    color: red;
+} */
+/* div .foo{
+    color: red;
+} */
+
+/* .parent>p{
+    color: blue;
+} */
+
+/* a~p{
+    color: red;
+} */
+
+/* #bar{
+    color: green;
+}
+.foo{
+    color: blue !important;
+}
+
+div{
+    color: red;
+} */
+
+
+html{
+    font-size: 16px;
+}
+div{
+    font-size: 21px;
+    line-height: 1em;
+    letter-spacing: 1em;
+
+}
+div p{
+    font-size: 1rem;
+}
+div p a{
+    font-size: 2rem;
+}
