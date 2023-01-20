@@ -1,11 +1,11 @@
-const data=[
-    {
-        text: "javacript study"
-    },
-    {
-        text: "javacript review"
-    }
-]
+// const data=[
+//     {
+//         text: "javacript study"
+//     },
+//     {
+//         text: "javacript review"
+//     }
+// ]
 // const data1=[
 //     {
 //         text: "베이스 연습하기"
@@ -26,18 +26,20 @@ const data=[
 //     }
     
 // ]
+const initialState=localStorage.getItem('todos') || []
 const $app=document.querySelector('.app')
+
 // new TodoList({
 //     $target: $app,
 //     initialState: data
 // })
-const todoList=new TodoList({
-    $target: $app,
-    intialState: data
-})
+// const todoList=new TodoList({
+//     $target: $app,
+//     // intialState: data
+// })
 new App({
     $target: $app,
-    initialState: data,
+    initialState,
 })
 // new TodoForm({
 //     $target: $app,

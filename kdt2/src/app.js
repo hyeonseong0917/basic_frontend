@@ -7,6 +7,8 @@ function App({$target, initialState}){
                 text
             }]
             todoList.setState(nextState)
+
+            localStorage.setItem('todos',JSON.stringify(nextState))
         }
     })
     const todoList=new TodoList({
